@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScriptの学習</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>JavaScript応用編 / 総合課題5：ポーカーゲームの課題</h1>
+
+  <main class="table">
+
+    <div class="dealer">
+      <div class="info">
+        <div class="result" id="dealer-result">勝ちor負けor引分</div>
+        <div class="role-label">親</div>
+      </div>
+      <div class="role-name" id="dealer-role-name">親の役名を表示</div>
+      <div class="cards" id="dealer-cards"></div>
+    </div>
+
+    <button type="button" class="game-button" id="game-button">ゲームスタート</button>
+
+    <div class="child">
+      <div class="cards" id="child-cards"></div>
+      <div class="role-name" id="child-role-name">子の役名を表示</div>
+      <div class="info-row">
+        <div class="role-label">子</div>
+        <div class="result" id="child-result">勝ちor負けor引分</div>
+      </div>
+    </div>
+
+  </main>
+  <script src="js/javascript_general_mission_5_1.js"></script>
+  <!--//フォルダ名jsの中のjavascript_general_mission_5_1.jsというファイルを読み込む-->
+</body>
+
+</html>

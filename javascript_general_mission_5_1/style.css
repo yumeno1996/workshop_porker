@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+}
+
+.table {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.info,
+.info-row,
+.role-name,
+.cards {
+  margin-bottom: 20px;
+}
+
+.info-row {
+  text-align: right;
+}
+
+.result,
+.role-label,
+.role-name {
+  height: 70px;
+  line-height: 70px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 24px;
+}
+
+.result,
+.role-label {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.result {
+  width: 220px;
+}
+
+.role-label {
+  width: 100px;
+  font-size: 40px;
+}
+
+
+.card {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.game-button {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 5px 60px;
+}
